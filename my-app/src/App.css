@@ -1,1 +1,67 @@
+/* =============================
+	 1) Simple CSS Reset (global)
+	 =============================
+	 These styles remove default spacing and make sizing predictable.
+*/
+
+/* Use border-box sizing everywhere */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Remove default margin/padding on common elements */
+html,
+body,
+#root {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* Make media elements easier to work with */
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+/* Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/* =============================
+	 2) App-wide styles (add yours below)
+	 =============================
+	 Put layout/theme styles here (colors, fonts, spacing).
+*/
+
+/* Example placeholder (safe to delete later)
+body {
+	font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+*/
+
+/* =============================
+	 3) Component / page styles
+	 =============================
+	 Recommended: keep each component's styles grouped and labeled.
+	 Example:
+	 - Header / nav
+	 - Main content
+	 - Footer
+*/
+
+
 
