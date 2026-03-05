@@ -18,7 +18,7 @@ navigate("/HaskillSlide");
 If you’re chasing technical descents, 
 fall-line intensity, and the kind of skiing that demands focus from 
 first turn to last — you’re in the right place.</p>
-<img src="./src/image_and_texts/skimap.jpg" alt="ski map"/>
+<img src="/image_and_texts/skimap.jpg" alt="ski map"/>
 <div className="button">
 <button onClick={handleClick}>&rarr;</button> 
 </div>     

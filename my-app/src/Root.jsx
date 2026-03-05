@@ -9,7 +9,7 @@ export default function Root(){
         <div id="container2">
         <div id="Header" >
             <header>
-            <img src="./src/image_and_texts/WhiteFishLogo.webp" alt="logo"/>
+                <img src="/image_and_texts/WhiteFishLogo.webp" alt="logo"/>
             <h2>Welcome To Black Diamond Mountain Page For Whitefish</h2>
             <nav>
                 <ul>

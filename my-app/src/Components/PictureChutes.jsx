@@ -17,7 +17,7 @@ export default function PictureChutes(){
     return(<div id="container">
     <div className="main">
     <h3> Picture Chutes</h3>
-    <img className="bigImage3" src="./src/image_and_texts/PictureChutes2.jpeg" alt="Picture Chutes"/>
+    <img className="bigImage3" src="/image_and_texts/PictureChutes2.jpeg" alt="Picture Chutes"/>
 
     <p>Picture Chutes is one of the most technical and adrenaline-charged in-bounds 
 expert zones at Whitefish Mountain Resort. Hidden within the mountain’s steep north-facing terrain, 
@@ -85,7 +85,7 @@ the terrain opens below. Most lines funnel into lower glades or open slopes
 that reconnect with the lift system.</p>
 </div>
 <div className="atmosphere">
-<img src="./src/image_and_texts/PictureChutes.jpg" alt="Picture Chutes"/>
+<img src="/image_and_texts/PictureChutes.jpg" alt="Picture Chutes"/>
 <h4>Atmosphere & Experience</h4>
 
 <p>Picture Chutes delivers an intense, high-consequence experience. 

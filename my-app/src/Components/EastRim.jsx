@@ -13,7 +13,7 @@ const handleClick = () => {
     return(<div id="container">
     <div className="main">
     <h3> East Rim Chutes</h3>
-    <img src="./src/image_and_texts/East_Rim.png" alt="East Rim"/>
+    <img src="/image_and_texts/East_Rim.png" alt="East Rim"/>
 
     <p>
 East Rim Chutes is one of the most dramatic and technical 
@@ -94,7 +94,7 @@ summit toward the East Rim. Skiers must choose their entry carefully —
 Route-finding skills and awareness of cliff bands are essential for a safe descent.</p>
 </div>
 <div className="atmosphere">
-<img src="./src/image_and_texts/East_Rim2.jpeg" alt="East Rim"/>
+<img src="/image_and_texts/East_Rim2.jpeg" alt="East Rim"/>
 <h4>Atmosphere & Experience</h4>
 
 <p>Standing at the top of East Rim Chutes can be as intimidating as 
