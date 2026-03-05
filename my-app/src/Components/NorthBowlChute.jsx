@@ -19,7 +19,7 @@ const handleClickB = () => {
     return(<div id="container">
     <div className="main">
     <h3> North Bowl Chute (NBC)</h3>
-    <img src="/image_and_texts/NBC.jpeg" alt="Picture Chutes"/>
+    <img src="/image_and_texts/NBC.jpeg" alt="NBC"/>
 
     <p>North Bowl Chute is one of the most sought-after expert descents on Whitefish Mountain Resort’s famed North Bowl — 
 a zone renowned for deep snow, sustained pitch, and classic Big Mountain terrain. Combining a steep chute entrance 
@@ -99,7 +99,7 @@ the sense of immersion and adventure. The combination of exposure,
 silence, and deep snow creates a memorable descent that feels far removed from typical resort skiing.</p>
 </div>
 <div className="atmosphere">
-<img className="bigImage" src="/image_and_texts/NBC2.jpeg" alt="Picture Chutes"/>
+<img className="bigImage" src="/image_and_texts/NBC2.jpeg" alt="NBC"/>
 <h4>Atmosphere & Experience</h4>
 
 <p>North Bowl Chute offers a quintessential Big Mountain experience: 

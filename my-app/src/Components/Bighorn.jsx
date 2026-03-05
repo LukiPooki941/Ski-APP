@@ -17,7 +17,7 @@ export default function Bighorn(){
     return(<div id="container">
     <div className="main">
     <h3> Bighorn </h3>
-    <img src="/image_and_texts/BigHorn.jpeg" alt="Picture Chutes"/>
+    <img src="/image_and_texts/BigHorn.jpeg" alt="Bighorn"/>
 
     <p>Big Horn is one of the most beloved advanced runs at Whitefish Mountain Resort, 
 offering classic Big Mountain skiing defined by steep pitches, soft snow, and 
@@ -84,7 +84,7 @@ lift, allowing for efficient circulation without long traverses.
 </p>
 </div>
 <div className="atmosphere">
-<img className="bigImage2" src="/image_and_texts/BigHorn2.jpeg" alt="Picture Chutes"/>
+<img className="bigImage2" src="/image_and_texts/BigHorn2.jpeg" alt="Bighorn"/>
 <h4>Atmosphere & Experience</h4>
 
 <p>

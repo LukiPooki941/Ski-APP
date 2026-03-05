@@ -17,7 +17,7 @@ const handleClickB = () => {
     return(<div id="container">
     <div className="main">
     <h3>Haskill Slide</h3>
-    <img src="/image_and_texts/HaskillSlide.jpg" alt="Picture Chutes"/>
+    <img src="/image_and_texts/HaskillSlide.jpg" alt="Haskill Slide"/>
 
     <p> Haskill Slide is one of the most iconic expert backcountry 
 descents on Big Mountain (Whitefish Mountain Resort) in Whitefish, 
@@ -86,7 +86,7 @@ There is no lift returning you to the resort from the bottom.
 </p>
 </div>
 <div className="atmosphere">
-<img src="/image_and_texts/JR-HaskillSlide.jpg" alt="Picture Chutes"/>
+<img src="/image_and_texts/JR-HaskillSlide.jpg" alt="Haskill Slide"/>
 <h4>Atmosphere & Experience</h4>
 
 <p>
