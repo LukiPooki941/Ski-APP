@@ -16,6 +16,7 @@ html,
 body,
 #root {
 	height: 100%;
+    box-sizing: border-box;
 }
 
 body {
@@ -64,4 +65,127 @@ body {
 */
 
 
+
+html{
+    height:100%;
+    background:url("./image_and_texts/skiingWhitefish.jpeg") center / cover no-repeat fixed ;
+    text-align:center;
+    margin: auto;
+    width:100%;
+    overscroll-behavior: none;
+ 
+    
+   
+    
+}
+
+#container2{
+    background-color: rgba(255, 255, 255, 0.9);
+    width:70%;
+    color:black;
+    margin: 0 auto;
+   
+    
+}
+
+img{
+    width: 70%;
+    border-radius: 15px;
+}
+
+/*#Header, #main, #Footer{
+    background-color: rgba(255, 255, 255, 0.6);
+    color:black;
+    margin: 0 auto;
+}*/
+
+#Header img{
+   display:none;
+   
+}
+
+#Header{
+    margin:0;
+    background-color: rgb(225, 232, 238)
+}
+
+img{
+    margin: 0 auto;
+}
+
+#Header h2{
+    margin: 10px auto;
+}
+
+#Header nav ul{
+    text-decoration:none;
+    list-style:none;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border:2px solid black;
+}
+
+#Header nav li{
+    justify-content: center;
+    list-style: none;
+    border:2px solid black;
+    flex: 2 1 150px;
+
+  
+}
+
+#Header nav li a{
+    color:black;
+}
+
+
+h1,h2, h3, h4, h5, h6, p {
+    margin: 2% auto;
+    width: 60%;
+   
+    
+
+}
+
+
+
+button{
+    color:white;
+    margin: 5% 5%;
+}
+
+
+h2{
+    font-size: 40px;
+}
+
+footer{
+    font-size: 25px;
+    border: 2px solid black;
+    color:black; }
+
+#Footer{
+    margin-bottom: 100px;
+    background-color: rgb(225, 232, 238);
+}
+
+h4{
+    text-decoration: underline;
+}
+
+ h3, h4, h5, h6{
+    text-decoration: underline;
+}
+
+/*div#main, div#Overview, div#Difficulty, div#conditions, div#access div#atmosphere div#safety div#must  {
+    
+    
+}*/
+
+h3{
+    font-size: 23px;
+}
 

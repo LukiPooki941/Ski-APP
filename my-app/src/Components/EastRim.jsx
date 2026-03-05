@@ -12,7 +12,7 @@ const handleClick = () => {
 
     return(<div id="container">
     <div className="main">
-    <h3> East Rim</h3>
+    <h3> East Rim Chutes</h3>
     <img src="./src/image_and_texts/East_Rim.png" alt="East Rim"/>
 
     <p>

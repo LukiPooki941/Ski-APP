@@ -6,7 +6,7 @@ export default function Root(){
 
     const navigate = useNavigate();
     return (
-        <>
+        <div id="container2">
         <div id="Header" >
             <header>
             <img src="./src/image_and_texts/WhiteFishLogo.webp" alt="logo"/>
@@ -30,6 +30,6 @@ export default function Root(){
         <div id="Footer">
             <footer>&copy;Black Diamond Mountain</footer>
         </div>
-        </>
+        </div>
     )
 }
