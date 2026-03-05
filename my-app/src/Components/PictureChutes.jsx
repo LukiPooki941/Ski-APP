@@ -17,7 +17,7 @@ export default function PictureChutes(){
     return(<div id="container">
     <div className="main">
     <h3> Picture Chutes</h3>
-    <img src="./src/image_and_texts/PictureChutes2.jpeg" alt="Picture Chutes"/>
+    <img className="bigImage3" src="./src/image_and_texts/PictureChutes2.jpeg" alt="Picture Chutes"/>
 
     <p>Picture Chutes is one of the most technical and adrenaline-charged in-bounds 
 expert zones at Whitefish Mountain Resort. Hidden within the mountain’s steep north-facing terrain, 

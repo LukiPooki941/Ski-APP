@@ -84,7 +84,7 @@ lift, allowing for efficient circulation without long traverses.
 </p>
 </div>
 <div className="atmosphere">
-<img src="./src/image_and_texts/BigHorn2.jpeg" alt="Picture Chutes"/>
+<img className="bigImage2" src="./src/image_and_texts/BigHorn2.jpeg" alt="Picture Chutes"/>
 <h4>Atmosphere & Experience</h4>
 
 <p>

@@ -128,7 +128,7 @@ img{
     border:2px solid black;
 }
 
-#Header nav li{
+#Header nav a{
     justify-content: center;
     list-style: none;
     border:2px solid black;
@@ -137,9 +137,10 @@ img{
   
 }
 
-#Header nav li a{
+#Header nav a{
     color:black;
 }
+
 
 
 h1,h2, h3, h4, h5, h6, p {
@@ -189,3 +190,17 @@ h3{
     font-size: 23px;
 }
 
+img.bigImage{
+    height:40%;
+    width:40%;
+}
+
+img.bigImage2{
+    height:50%;
+    width:50%;
+}
+
+img.bigImage3{
+    height:45%;
+    width:45%;
+}

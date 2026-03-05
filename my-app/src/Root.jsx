@@ -13,12 +13,12 @@ export default function Root(){
             <h2>Welcome To Black Diamond Mountain Page For Whitefish</h2>
             <nav>
                 <ul>
-                    <li><NavLink to="/">Welcome Page</NavLink></li>
-                    <li><NavLink to="HaskillSlide">Haskill Slide</NavLink></li>
-                    <li><NavLink to="NBC">North Bowl Chute</NavLink></li>
-                    <li><NavLink to="Bighorn">Bighorn</NavLink></li>
-                    <li><NavLink to="PictureChutes">Picture Chutes</NavLink></li>
-                    <li><NavLink to="EastRim">East Rim Chutes</NavLink></li>
+                    <NavLink to="/"><li>Welcome Page</li></NavLink>
+                    <NavLink to="HaskillSlide"><li>Haskill Slide</li></NavLink>
+                    <NavLink to="NBC"><li>North Bowl Chute</li></NavLink>
+                    <NavLink to="Bighorn"><li>Bighorn</li></NavLink>
+                    <NavLink to="PictureChutes"><li>Picture Chutes</li></NavLink>
+                    <NavLink to="EastRim"><li>East Rim Chutes</li></NavLink>
                 </ul>
             </nav>
             </header>

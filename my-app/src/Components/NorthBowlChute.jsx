@@ -99,7 +99,7 @@ the sense of immersion and adventure. The combination of exposure,
 silence, and deep snow creates a memorable descent that feels far removed from typical resort skiing.</p>
 </div>
 <div className="atmosphere">
-<img src="./src/image_and_texts/NBC2.jpeg" alt="Picture Chutes"/>
+<img className="bigImage" src="./src/image_and_texts/NBC2.jpeg" alt="Picture Chutes"/>
 <h4>Atmosphere & Experience</h4>
 
 <p>North Bowl Chute offers a quintessential Big Mountain experience: 
