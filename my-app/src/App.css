@@ -106,7 +106,8 @@ img{
 
 #Header{
     margin:0;
-    background-color: rgb(225, 232, 238)
+    padding-top: 10px;
+    background-color: rgb(225, 232, 238);
 }
 
 img{
@@ -114,7 +115,7 @@ img{
 }
 
 #Header h2{
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 #Header nav ul{
@@ -164,7 +165,7 @@ h2{
 }
 
 footer{
-    font-size: 25px;
+    font-size: 20px;
     border: 2px solid black;
     color:black; }
 
@@ -203,4 +204,63 @@ img.bigImage2{
 img.bigImage3{
     height:45%;
     width:45%;
+}
+
+@media only screen and (max-width: 600px) {
+  #container2 {
+    width:100%;
+    overscroll-behavior: none;
+    
+  }
+
+button{
+    display:none;
+}
+
+#Footer footer{
+    font-size: 15px;
+    margin-top:20px
+}
+
+div.Overview, div.Difficulty, div.conditions, div.access, div.atmosphere, div.safety, div.must{
+    display:none;
+}
+
+#Header h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#main {
+    margin: 20px auto;
+}
+
+img{
+    width:95%;
+}
+h3.mobile{
+    display:none;
+    margin-bottom: 5px;
+}
+
+p {
+margin: 10px auto;
+}
+}
+
+
+
+/* Tablet */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  
+div.access, div.atmosphere,div.must{
+    display:none
+}
+
+#Footer footer{
+    font-size: 15px;
+}
+
+
+
 }

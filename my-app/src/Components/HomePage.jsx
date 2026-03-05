@@ -10,7 +10,7 @@ navigate("/HaskillSlide");
 
 
     return (<div id="mainPage">
-        <h3>Welcome To Black Diamond Mountain WhiteFish Edition</h3>
+        <h3 className="mobile" >Welcome To Black Diamond Mountain WhiteFish Edition</h3>
         <p>
  This is where comfort zones end and real terrain begins. Whitefish’s double black runs deliver steep chutes, tight trees, exposed 
  lines, and deep north-facing powder that rewards precision and commitment.
