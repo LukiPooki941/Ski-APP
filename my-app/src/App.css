@@ -73,17 +73,20 @@ html{
     margin: auto;
     width:100%;
     overscroll-behavior: none;
+    
  
     
    
     
 }
 
+
 #container2{
     background-color: rgba(255, 255, 255, 0.9);
     width:70%;
     color:black;
     margin: 0 auto;
+   
    
     
 }
@@ -108,6 +111,8 @@ img{
     margin:0;
     padding-top: 10px;
     background-color: rgb(225, 232, 238);
+    
+    
 }
 
 img{
@@ -118,6 +123,7 @@ img{
     margin: 0 auto;
 }
 
+
 #Header nav ul{
     text-decoration:none;
     list-style:none;
@@ -126,16 +132,34 @@ img{
     margin: 0;
     padding: 0;
     width: 100%;
-    border:2px solid black;
+    /*border:2px solid black;*/
+    
+}
+
+#Header nav ul a:hover{
+background-color: #0EA5A4;
+   
+}
+
+#Header nav ul .activeNavLink {
+     background-color: #0EA5A4;
 }
 
 #Header nav a{
     justify-content: center;
     list-style: none;
     border:2px solid black;
-    flex: 2 1 150px;
+    flex: 1 2 150px;
 
   
+}
+
+a {
+    margin: 10px;
+    border-radius: 10px;
+    height:40px;
+    display: flex;
+    align-items: center;
 }
 
 #Header nav a{
@@ -155,7 +179,9 @@ h1,h2, h3, h4, h5, h6, p {
 
 
 button{
-    color:white;
+    color: black;
+    background-color: rgb(225, 232, 238);;
+    border:2px solid black;
     margin: 5% 5%;
 }
 
@@ -203,28 +229,49 @@ img.bigImage2{
 
 img.bigImage3{
     height:45%;
-    width:45%;
+    width:35%;
+}
+/* mobile */
+@media only screen and (max-width: 600px) {
+img{
+    width:90%;
+}
+img.bigImage {
+    width:80%;
 }
 
-@media only screen and (max-width: 600px) {
-  #container2 {
+img.bigImage2 {
+    width:80%;
+}
+
+img.bigImage3 {
+    width:80%;
+}
+
+
+button{
+    display: none;
+}
+
+
+    #container2 {
     width:100%;
     overscroll-behavior: none;
     
   }
 
-button{
+/*button{
     display:none;
-}
+}*/
 
 #Footer footer{
     font-size: 15px;
     margin-top:20px
 }
 
-div.Overview, div.Difficulty, div.conditions, div.access, div.atmosphere, div.safety, div.must{
+/*div.Overview, div.Difficulty, div.conditions, div.access, div.atmosphere, div.safety, div.must{
     display:none;
-}
+}*/
 
 #Header h2{
     font-size: 20px;
@@ -235,9 +282,10 @@ div.Overview, div.Difficulty, div.conditions, div.access, div.atmosphere, div.sa
     margin: 20px auto;
 }
 
-img{
+/*img{
     width:95%;
-}
+    height:80%
+}*/
 h3.mobile{
     display:none;
     margin-bottom: 5px;
@@ -246,21 +294,113 @@ h3.mobile{
 p {
 margin: 10px auto;
 }
+
+
+
 }
+
 
 
 
 /* Tablet */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
   
-div.access, div.atmosphere,div.must{
-    display:none
-}
+  #container2 {
+    width:100%;
+    overscroll-behavior: none;
+    
+  }
 
 #Footer footer{
     font-size: 15px;
+
+}
+
+button{
+    display: none;
+}
+
+  #Header nav  {
+    width:70%;
+    margin: 0 auto;
+    
+  }
+
+  
+
 }
 
 
+@media (orientation:landscape){
+    button{
+        display:none;
+    }
+
+     #container2 {
+    width:100%;
+    overscroll-behavior: none;
+    
+  }
+
+
+  #Header nav {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+ 
+}
+
+
+@media (min-width:1024px){
+   
+
+    button{
+    color: black;
+    background-color: rgb(225, 232, 238);;
+    border:2px solid black;
+    display: flex;
+   
+}
+
+div.button{
+    display: flex;
+   justify-content: center;
+
+   
+}
+
+   
+   img.bigImage{
+    width:35%;
+}
+
+img.bigImage2{
+    width:35%;
+}
+
+img.bigImage3{
+    width:25%;
+}
+
+img{
+    max-width: 35%;
+    
+}
+
+#Header nav {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+
+
+#container2{
+    width:100%;
+}
 
 }
